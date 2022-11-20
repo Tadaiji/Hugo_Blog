@@ -4,7 +4,7 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
-baseURL = "localhost:1313"
+baseURL = "https://tadaiji.github.io."
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
