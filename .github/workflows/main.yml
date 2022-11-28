@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - pages  # Set a branch that will trigger a deployment
+      - main  # Set a branch that will trigger a deployment
   pull_request:
 
 jobs:
@@ -29,11 +29,11 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.TOKEN }}
-          external_repository: tadaiji/tadaiji.github.io/My_Blog/
-          publish_dir: ./public
-          #   keep_files: true
-          user_name: tadaiji
           publish_branch: pages
+          publish_dir: ./public
+          external_repository: tadaiji/tadaiji.github.io/My_Blog/
+          
+          
           
           
 
