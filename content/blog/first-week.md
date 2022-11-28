@@ -36,8 +36,10 @@ And also I found out that Unity has a VR template, which I downloaded for a quic
 
 
 ###  Unboxing the Quest 2
-So, this isn’t my first time unboxing a Quest 2 because coincidentally I rented a Quest 2 a Month before because I wanted to play the just released Bonelabs(https://www.stresslevelzero.com/). The game is pretty nice, but I personally liked the previous game Boneworks more. I could also start a how another blog about Stress Level Zero, BrandonJLa and Corridor Digital and how much I like and follow them, but this is for another time. So, for the time being I have 2 Quests and I want to try local Multiplayer games. 
+work in progress
 
 
+### Setting up the Quest 2
+work in progress
 
 
