@@ -33,6 +33,6 @@ jobs:
           publish_dir: ./public
           #   keep_files: true
           user_name: tadaiji
-          publish_branch: master
+          publish_branch: pages
 
     
