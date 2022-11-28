@@ -1,5 +1,5 @@
 ---
 heading: "Hi, I'm Daniel Schirrmann"
-subheading: "This is my protfolio Blog"
+subheading: "And this is my portfolio Blog"
 handle: "Tadaiji"
 ---
