@@ -23,7 +23,7 @@ From there I clicked on the “Get started” button and could sign up for the s
 ![Download Unity Webpage](../../images/Screenshot_20221103_184611.png)
 
 And after following the setup I got Unity-Hub, which looks something like this.
-![Unity Hub](/images/Screenshot_20221103_184954.png)
+![Unity Hub](../../images/Screenshot_20221103_184954.png)
 
 From here we need to install a Unity-Build. Now for the upcoming project I need an Android-build and a Windows build.
 ![Unity Hub create a project](../../images/Screenshot_20221103_190332.png)
