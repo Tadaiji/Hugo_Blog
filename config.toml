@@ -3,8 +3,8 @@ theme = "hugo-theme-codex"
 
 # Override these settings with your own
 title = "codex"
-languageCode = "en-us"
-baseURL = "https://tadaiji.github.io/My_Blog"
+languageCode = "de-de"
+baseURL = "https://tadaiji.github.io/My_Blog/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -42,7 +42,7 @@ copyright = "© {year}"
   # Set to true to display page title in table of contents in blog posts.
   showPageTitleInTOC = true
 
-  debug = true
+  debug = false
 
   disablefastrender = true
   disableFingerprinting = true
