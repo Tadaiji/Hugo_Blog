@@ -29,10 +29,10 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.TOKEN }}
-          external_repository: tadaiji/tadaiji.github.io
+          external_repository: tadaiji/tadaiji.github.io/My_Blog
           publish_dir: ./public
           #   keep_files: true
           user_name: tadaiji
           publish_branch: master
-          
+
     
