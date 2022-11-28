@@ -45,6 +45,7 @@ copyright = "© {year}"
   debug = true
 
   disablefastrender = true
+  disableFingerprinting = true
 
   
 

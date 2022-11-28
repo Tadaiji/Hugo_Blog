@@ -28,5 +28,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
+          external_repository: tadaiji/tadaiji.github.io
           publish_dir: ./public
+          #   keep_files: true
+          user_name: tadaiji
+          publish_branch: master
