@@ -1,6 +1,6 @@
 ---
 title: "About"
-draft: true
+draft: false
 ---
 
 ## This is my about Page 

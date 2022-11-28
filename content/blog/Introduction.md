@@ -4,7 +4,7 @@ date: 2022-11-01T16:38:16+01:00
 slug: ""
 description: "This is the introduction page for the next X blog posts"
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
