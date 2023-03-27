@@ -3,7 +3,7 @@ title: "Meine Projekte"
 
 ---
 Test
-{{ partial "carousel.html" (dict "context" . "items" "1" "height" "50" "unit" "%" "duration" "7000") }};
+{{< carousel items="1" height="500" unit="px" duration="7000" >}}
     
 
 
