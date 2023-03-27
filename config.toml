@@ -77,11 +77,18 @@ copyright = "© {year}"
   weight = 20
 
 [[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  title = "Projects"
+  url = "/projects"
+  weight = 30
+
+[[menu.main]]
   identifier = "about"
   name = "About"
   title = "About"
   url = "/about"
-  weight = 30
+  weight = 40
 
 
 
