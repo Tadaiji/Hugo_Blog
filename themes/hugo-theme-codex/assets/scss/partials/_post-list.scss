@@ -12,6 +12,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  
 }
 
 .post {
@@ -23,12 +24,17 @@
   font-weight: 500;
 
   a {
-    color: $black;
+    color: $secondary;
     text-decoration: none;
+  }
+  a:hover{
+    color: $hover_color;
+    font-size: larger;
+    //text-shadow: -1px 0, 0 1px, 1px 0, 0 -1px $hover_color;
   }
 }
 
 .post__date {
-  color: $grey;
+  color: $secondary;
   font-size: 0.8rem;
 }

@@ -7,6 +7,8 @@ languageCode = "de-de"
 baseURL = "https://tadaiji.github.io/My_Blog/"
 copyright = "© {year}"
 
+
+
 # Add your Disqus shortname here.
 # disqusShortname = ""
 
@@ -62,21 +64,24 @@ copyright = "© {year}"
 # Controls the navigation
 [[menu.main]]
   identifier = "home"
-  name = "home"
+  name = "Home"
   title = "Home"
   url = "/"
-
-[[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
-  url = "about"
+  weight = 10
 
 [[menu.main]]
   identifier = "blog"
-  name = "blog"
+  name = "Blog"
   title = "Blog"
   url = "/blog"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About"
+  url = "/about"
+  weight = 30
 
 
 

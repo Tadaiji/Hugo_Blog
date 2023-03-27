@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  color: $secondary;
 
   @media screen and (min-width: $medium) {
     font-size: 18px;
@@ -13,6 +14,11 @@
 }
 
 .splash {
+
+  div.bottemBar{
+    border-top: 5px $white;
+  }
+
   h1 {
     font-size: 3em;
     line-height: 1;
@@ -36,21 +42,26 @@
 .handle {
   display: inline-block;
   margin-top: 0.275em;
-  color: $grey;
+  color: $secondary;
   letter-spacing: 0.5px;
+  
 }
 
 .writing {
   text-decoration: none;
-  color: $primary;
+  color: $secondary;
 }
 
 /* overrides */
+body {
+  background-color: $primary;
+}
 
 main {
   padding-top: 0;
   padding-bottom: 0;
   height: 100%;
+  background-color: $primary;
 }
 
 .social-icons {

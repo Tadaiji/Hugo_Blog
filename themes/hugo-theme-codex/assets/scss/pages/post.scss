@@ -3,20 +3,28 @@
 
 $tocBreakpoint: 1024px;
 
+
 /* Aligns ToC content */
 .flex-wrapper {
   display: flex;
+  background-color: $primary;
 }
 
 .post__container {
   flex-grow: 1;
   min-width: 0;
+
 }
 
 .post {
   width: 100%;
   max-width: 34rem;
   margin: 0 auto;
+  color: $secondary;
+  padding: 20px;
+  //border: 4px solid #000000;
+  //border-radius: 4px 4px 4px 4px;
+  //box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 5px 5px 45px 19px rgba(0,0,0,0);
 
   h2,
   h3 {
@@ -28,7 +36,7 @@ $tocBreakpoint: 1024px;
       text-decoration: none;
       position: absolute;
       left: -1rem;
-      color: $grey;
+      color: $secondary;
       font-size: 1.2rem;
       font-weight: 400;
     }
@@ -36,6 +44,7 @@ $tocBreakpoint: 1024px;
     .anchor:hover {
       color: $darkGrey;
     }
+
   }
 
   blockquote {
@@ -46,6 +55,10 @@ $tocBreakpoint: 1024px;
     a {
       color: $darkGrey;
       text-decoration: underline;
+    }
+
+    a:link{
+      color: $secondary;
     }
   }
 
@@ -58,12 +71,13 @@ $tocBreakpoint: 1024px;
 }
 
 #post__title {
+  background-color: $primary;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
 .post__date {
-  color: $grey;
+  color: $secondary;
   font-size: 0.8rem;
 }
 
@@ -126,8 +140,8 @@ $tocBreakpoint: 1024px;
   text-decoration: none;
   padding: 0.2em 0.4em;
   border-radius: 3px;
-  background: lighten($primary, 41%);
-  color: $primary;
+  background: lighten($secondary, 41%);
+  color: $secondary;
   font-size: 0.8rem;
 
   &:hover {
@@ -158,6 +172,7 @@ $tocBreakpoint: 1024px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  color: $primary;
 
   &:nth-child(2) {
     margin-top: 1.5rem;
@@ -174,18 +189,18 @@ $tocBreakpoint: 1024px;
       margin-top: 0;
     }
     &:hover {
-      background-color: #f6f9fc;
+      background-color: $black;
     }
   }
 }
 
 .pagination__label {
-  color: $grey;
+  color: $secondary;
   font-size: 0.8rem;
 }
 
 .pagination__title {
-  color: $black;
+  color: $secondary;
   font-weight: 700;
   margin-top: 0.25rem;
 }
@@ -193,11 +208,11 @@ $tocBreakpoint: 1024px;
 footer {
   text-align: center;
   padding: 0 1.5rem;
-  background: $white;
+  background: $primary;
 
   p {
     margin-top: 1rem; // reduce margin top due to social icons' padding
-    color: $grey;
+    color: $secondary;
     font-size: 0.65rem;
   }
 }
@@ -212,7 +227,7 @@ footer {
 
       &::before {
         content: "-";
-        color: $darkGrey;
+        color: $secondary;
         position: absolute;
         margin-left: -15px;
       }

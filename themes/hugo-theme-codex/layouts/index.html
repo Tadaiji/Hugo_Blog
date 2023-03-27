@@ -5,18 +5,30 @@
 {{ define "main" }}
 
 <div class="splash-container">
+  
   <div class="splash">
     
-    <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
+    <!-- First Headline-->
+    <h1>{{ .Params.heading }}<span class="fancy"></span></h1>
+    
+    <!-- Handle (@Tadaiji)-->
     {{ if isset .Params "handle" }}
     <span class="handle">@{{ .Params.handle }}</span>
     {{ end }}
-    <h2>
-      {{ .Params.subheading }}
-    </h2>
-    <!-- Replace MEEEEE -->
-
+    
+    <!-- Second Headline-->
+    
+      <h2>
+        {{ .Params.subheading }}
+      </h2>
+    
+    <div class="bottemBar">
+    <!-- Github icon-->
     {{ partial "social-icons.html" .}}
+    </div>
+
+    <img src="/images/DALL·E 2023-03-26 21.19.34 - An impression of gorilla tag.png" width="100px" alt="Gorilla Tag">
+
   </div>
 </div>
 

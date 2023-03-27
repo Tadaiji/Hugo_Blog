@@ -9,11 +9,19 @@ body.nav--active {
   overflow: hidden;
 }
 
+body{
+  background-color: $primary;
+}
+
 main {
-  padding: 3rem 1.5rem 1rem;
+  //padding: 3rem 1.5rem 1rem;
+  padding-top: 3rem;
+  background-color: $primary;
+
+
 
   @media screen and (min-width: $medium) {
-    padding-left: calc(1.5rem + #{$navWidth});
+    //padding-left: calc(1.5rem + #{$navWidth});
   }
 
   @media screen and (max-width: $medium - 1) {
