@@ -39,13 +39,14 @@ This Blog startted as a project for the &amp;ldquo;Interaction in Virtual and Au
     </item>
     
     <item>
-      <title>Meine Projekte</title>
+      <title>My projects</title>
       <link>https://tadaiji.github.io/My_Blog/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tadaiji.github.io/My_Blog/projects/</guid>
-      <description>My first project is based on Gorilla Tag. It was developed for the &amp;ldquo;Interaction in Virtual and Augmented Reality&amp;rdquo; course at the TU-Darmstadt Github Link: Github gorilla tag
-APK Link: APK gorilla tag</description>
+      <description>My first project is based on Gorilla Tag. It was developed for the &amp;ldquo;Interaction in Virtual and Augmented Reality&amp;rdquo; course at the TU-Darmstadt. It uses the same physics as gorilla tag, in the form of hands, to propell the player to move around a course and collect coins. There are also some interactions to clear.
+Github Link: Github Project
+APK Link: APK Project</description>
     </item>
     
   </channel>
