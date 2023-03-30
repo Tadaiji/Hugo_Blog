@@ -9,21 +9,12 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Tue, 01 Nov 2022 16:38:47 +0100</lastBuildDate><atom:link href="https://tadaiji.github.io/My_Blog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Week</title>
+      <title>Ignore</title>
       <link>https://tadaiji.github.io/My_Blog/blog/first-week/</link>
       <pubDate>Tue, 01 Nov 2022 16:38:47 +0100</pubDate>
       
       <guid>https://tadaiji.github.io/My_Blog/blog/first-week/</guid>
-      <description>What is todo for this week For the first week we should work on your first VR project and implement Roll a Ball in Unity if we can. Roll a Ball is the first VR Project for a starting VR developer they said. So this is what I did for this week. But starting our first project comes with the installation of Unity and deploying the project to the Quest.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to the VR project</title>
-      <link>https://tadaiji.github.io/My_Blog/blog/introduction/</link>
-      <pubDate>Tue, 01 Nov 2022 16:38:16 +0100</pubDate>
-      
-      <guid>https://tadaiji.github.io/My_Blog/blog/introduction/</guid>
-      <description>Second Heading Third Heading What we have to do: Week overview: First Week Second Week Third Week &amp;hellip; </description>
+      <description></description>
     </item>
     
   </channel>
