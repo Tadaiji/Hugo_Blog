@@ -23,9 +23,7 @@
       <pubDate>Tue, 01 Nov 2022 16:38:16 +0100</pubDate>
       
       <guid>https://tadaiji.github.io/My_Blog/blog/introduction/</guid>
-      <description>Second Heading Third Heading This Blog starts as a project for the &amp;ldquo;Interaction in Virtual and Augmented Reality&amp;rdquo; course of the TU-Darmstadt.
-For this course we have the task to make a blog about a interactive and locomotion driven virtual reality application/game. So my project blog is sectioned into weeks and they are also linked in the Week overview down below.
-My goal for this blog is to start it with his project and grow it as is grow and make new projects.</description>
+      <description>Second Heading Third Heading What we have to do: Week overview: First Week Second Week Third Week &amp;hellip; </description>
     </item>
     
     <item>
@@ -35,7 +33,9 @@ My goal for this blog is to start it with his project and grow it as is grow and
       
       <guid>https://tadaiji.github.io/My_Blog/about/</guid>
       <description>Work in Progress
-This Blog startted as a project for the &amp;ldquo;Interaction in Virtual and Augmented Reality&amp;rdquo; course of the TU-Darmstadt.</description>
+This Blog starts as a project for the &amp;ldquo;Interaction in Virtual and Augmented Reality&amp;rdquo; course of the TU-Darmstadt.
+For this course we have the task to make a blog about a interactive and locomotion driven virtual reality application/game. So my project blog is sectioned into weeks and they are also linked in the Week overview down below.
+My goal for this blog is to start it with his project and grow it as is grow and make new projects.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@ This Blog startted as a project for the &amp;ldquo;Interaction in Virtual and Au
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tadaiji.github.io/My_Blog/projects/</guid>
-      <description>My first project is based on Gorilla Tag. It was developed for the &amp;ldquo;Interaction in Virtual and Augmented Reality&amp;rdquo; course at the TU-Darmstadt. It uses the same physics as gorilla tag, in the form of hands, to propell the player to move around a course and collect coins. There are also some interactions to clear.
+      <description>Gorilla Tag My first project is based on Gorilla Tag. It was developed for the &amp;ldquo;Interaction in Virtual and Augmented Reality&amp;rdquo; course at the TU-Darmstadt. It uses the same physics as gorilla tag, in the form of hands, to propell the player to move around a course and collect coins. There are also some interactions to clear.
 Github Link: Github Project
 APK Link: APK Project</description>
     </item>
