@@ -77,6 +77,13 @@ copyright = "© {year}"
   weight = 20
 
 [[menu.main]]
+  identifier = "vr_project"
+  name = "VR project"
+  title = "VR project"
+  url = "/vr_project"
+  weight = 20
+
+[[menu.main]]
   identifier = "projects"
   name = "Projects"
   title = "Projects"

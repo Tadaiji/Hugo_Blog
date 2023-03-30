@@ -111,8 +111,12 @@ pre {
   padding: 16px;
   word-wrap: normal;
   overflow: auto;
-  background-color: #f6f8fa;
+  background-color: $primary +10%;
   border-radius: 3px;
+
+  code.language-c {
+    color: $secondary;
+  }
 }
 
 code {
@@ -121,6 +125,7 @@ code {
   padding: 0.2em 0.4em;
   margin: 0;
   background-color: rgba(27, 31, 35, 0.05);
+  color: #95BDFF;
   border-radius: 3px;
 }
 
