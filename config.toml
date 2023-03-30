@@ -71,16 +71,9 @@ copyright = "© {year}"
 
 [[menu.main]]
   identifier = "blog"
-  name = "Blog"
+  name = "blog"
   title = "Blog"
   url = "/blog"
-  weight = 20
-
-[[menu.main]]
-  identifier = "vr_project"
-  name = "VR project"
-  title = "VR project"
-  url = "/vr_project"
   weight = 20
 
 [[menu.main]]
