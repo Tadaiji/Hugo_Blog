@@ -1,7 +1,13 @@
 ---
 title: "Unity"
-date: 2023-03-28T21:09:50+02:00
+date: 2023-03-31T00:16:16+02:00
+slug: ""
+description: ""
+keywords: []
 draft: true
+tags: []
+math: false
+toc: false
 ---
 ## How to install and setup Unity:
 Setting up Unity is an easy feat in today\’s time, because of the Unity-Hub. The Unity-Hub is a office Unity Software and allows you to install almost any Unity-Build with the necessary options to install all relevant development and deployment methods for the selected Unity-Build. 

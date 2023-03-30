@@ -1,7 +1,7 @@
 ---
-title: "Random problems"
-date: 2023-03-28T21:12:17+02:00
-slug: "random_problems"
+title: "Random_problems"
+date: 2023-03-31T00:16:52+02:00
+slug: ""
 description: ""
 keywords: []
 draft: true
