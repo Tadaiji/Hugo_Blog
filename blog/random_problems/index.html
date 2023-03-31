@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="de-de">
+
+<head>
+  <title>Random_problems | codex</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/My_Blog/css/post.min.d551bcb9aa3ff6bdce16afb47e7031c94ae8a486cf3691de02f452872bfbdd87.css" integrity="sha256-1VG8uao/9r3OFq&#43;0fnAxyUropIbPNpHeAvRShyv73Yc="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/My_Blog/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/tadaiji.github.io\/My_Blog\/"
+      },
+      "articleSection" : "blog",
+      "name" : "Random_problems",
+      "headline" : "Random_problems",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2023",
+      "datePublished": "2023-03-31 00:16:52 \u002b0200 CEST",
+      "dateModified" : "2023-03-31 00:16:52 \u002b0200 CEST",
+      "url" : "https:\/\/tadaiji.github.io\/My_Blog\/blog\/random_problems\/",
+      "wordCount" : "664",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/My_Blog/">Home</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/My_Blog/blog">Blog</a>
+      </li>
+    
+      <li>
+        <a  href="/My_Blog/projects">Projects</a>
+      </li>
+    
+      <li>
+        <a  href="/My_Blog/about">About</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+      <div class="post_border">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Random_problems</h1>
+            <time datetime="2023-03-31 00:16:52 &#43;0200 CEST" class="post__date">Mar 31 2023</time> 
+          </header>
+          <article class="post__content">
+              
+<h2 id="the-course">The course:<a class="anchor" href="#the-course">#</a></h2>
+<p>The course was given to us with the project and here we should implement our techniques.
+<figure><img src="../../images/Parkour_Top.png"/><figcaption>
+            <h4>Top view of the course</h4>
+        </figcaption>
+</figure>
+
+<figure><img src="../../images/Course_side2.png"/><figcaption>
+            <h4>Side view of the course</h4>
+        </figcaption>
+</figure>
+
+This parkour course had patches of coins on the track and the track wasn’t only straight. For my implementation I added some additional coins to the track, mostly on top of buildings. I also added stairs to one building to give the player something to climb.
+We also had a testing scene which only had a plane in the beginning. While testing I expanded that. Here I first started testing my implementations and later on the course itself.
+<figure><img src="../../images/TestingArea.png"/><figcaption>
+            <h4>My testing area</h4>
+        </figcaption>
+</figure>
+</p>
+<h2 id="the-quest-link">The &ldquo;Quest Link&rdquo;<a class="anchor" href="#the-quest-link">#</a></h2>
+<p>Because I was developing on a laptop at first, I had the problem that the quest link was not working. This is because my laptop has no separate GPU which is needed for the link. But without the link I had the problem that I needed to export a build each time I wanted to test something and because these builds are standalone, I couldn’t observe the changes of the game objects. This led to the problem that if the build had bugs, I could only observe them in-game and couldn’t get information form the unity editor. At the beginning this wasn’t really a problem because I used an in-game debug console and the implementations weren’t that hard and could get fixed but not comfortably. And with future implementations I really needed a live overview of what is happening with my game objects. So, I tried to switch to my pc, but I had trouble getting it to work and couldn’t install new graphic drivers. And these problems of problems ate away at my time. After uninstalling my old GPU drivers I installed the lates and I got it to work. Now next was setting up the Unity editor to work with the quest in the editor. For this I followed a tutorial online and the setup was easy. Now I could debug on the fly, which saved me much time and many headaches. But the connection just broke was and still is very unstable and breaks often.</p>
+<h2 id="animations">Animations<a class="anchor" href="#animations">#</a></h2>
+<p>At the late stages of the development, I let my professor try the game for the first time. While he was playing, he had questions about the controls and what he could do. And there it struck me I had played and developed the game for some time so I knew all controls and what is possible, but when a new player plays the game for the first time they couldn’t know what to do and what is possible. So I made some in-game Animations which are placed before the start, which tell the player what they can do.
+<figure><img src="../../images/tutorial_piller.png"/><figcaption>
+            <h4>The ingame tutorials</h4>
+        </figcaption>
+</figure>
+</p>
+<p>These were simply done by take game-objects which represent what I wanted to show and some text above them.
+<figure><img src="../../images/hand_beschoeren.gif"/><figcaption>
+            <h4>Hands (de)spawn</h4>
+        </figcaption>
+</figure>
+</p>
+<p>Then I took the game-objects and the gave them an animator.
+<figure><img src="../../images/Animator.png"/><figcaption>
+            <h4>Animator</h4>
+        </figcaption>
+</figure>
+</p>
+<p>This then allowed me to create and animation clip with Unitys inbuild animation editor.
+<figure><img src="../../images/Animation.png"/><figcaption>
+            <h4>Animation ingame editor</h4>
+        </figcaption>
+</figure>
+</p>
+<p>This animation editor can save attributes of my choosing as keyframes and if I change them at a later point on the timeline it sets a new keyframe. Now unity interpolates between these keyframes and makes a smooth movement.
+<figure><img src="../../images/animation.gif"/><figcaption>
+            <h4>Animation</h4>
+        </figcaption>
+</figure>
+</p>
+<p>This animation is then saved and can now be controlled from a script or in the unity editor. I controlled the animation from a script. I wrote a little script that start and stops the animations, when the player enters or exits a trigger around it. This is done to save some processing power when the player isn’t around the object.
+<figure><img src="../../images/tutorial_piller_collider.png"/><figcaption>
+            <h4>The ingame tutorial with visible collider</h4>
+        </figcaption>
+</figure>
+</p>
+<pre><code class="language-c#">{
+    private void OnTriggerEnter(Collider other){
+        if (other.gameObject.layer == 8)
+        {
+            if (anim.isPlaying)
+            {return; }
+            anim.Play();
+        }
+    }
+
+    private void OnTriggerStay(Collider other){
+        if (other.gameObject.layer == 8)
+        {
+            if (anim.isPlaying)
+            { return; }
+            anim.Play();
+        }
+    }
+
+    private void OnTriggerExit(Collider other){
+if (!anim.isPlaying)
+       		{return;}
+       	anim.Stop()
+     }
+}
+</code></pre>
+
+
+              
+                  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+              
+          </article>
+          
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://tadaiji.github.io/My_Blog/blog/unity/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Unity</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://tadaiji.github.io/My_Blog/blog/locomotion/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Locomotion</span>
+    </a>
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/Tadaiji/Tadaiji/tree/main"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://tadaiji.github.io/My_Blog/svg/github.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2023</p>
+          </footer>
+          </div>
+      </div>
+      </div>
+      
+      <div class="toc-container">
+           <div class="toc-post-title">Random_problems</div> 
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-course">The course:</a></li>
+    <li><a href="#the-quest-link">The &ldquo;Quest Link&rdquo;</a></li>
+    <li><a href="#animations">Animations</a></li>
+  </ul>
+</nav>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/My_Blog/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+    <script src="/js/table-of-contents.js"></script>
+  
+
+
+</body>
+
+</html>

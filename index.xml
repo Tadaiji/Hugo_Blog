@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 31 Mar 2023 00:18:03 +0200</lastBuildDate><atom:link href="https://tadaiji.github.io/My_Blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 00:18:38 +0200</lastBuildDate><atom:link href="https://tadaiji.github.io/My_Blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Core_idea</title>
+      <link>https://tadaiji.github.io/My_Blog/blog/core_idea/</link>
+      <pubDate>Fri, 31 Mar 2023 00:18:38 +0200</pubDate>
+      
+      <guid>https://tadaiji.github.io/My_Blog/blog/core_idea/</guid>
+      <description>The core idea The core idea of the project was to let the player play the game in tight spaces and without much effort. To achieve that I wanted the player to expand his arm length with a slider or an system which controls the arm’s length proportionately.
+I think VR can be a mainstream technology in the future and we won’t use controllers anymore. So, I wanted to implement the locomotion and interaction methods, so they don’t rely on controllers.</description>
+    </item>
+    
     <item>
       <title>Interaction</title>
       <link>https://tadaiji.github.io/My_Blog/blog/interaction/</link>
@@ -24,6 +34,15 @@
       
       <guid>https://tadaiji.github.io/My_Blog/blog/locomotion/</guid>
       <description>The idea So, for the locomotion technique I thought that the player is using their arms/hands to move, while the further you go down with your hands/controllers the larger your arms get in game. I imagined it something like Hand Walking which can be seen down below. Hand walking These arms are then used to physics based propel/push the player in the desired direction based. And the motion of your hands should be translated into game movement.</description>
+    </item>
+    
+    <item>
+      <title>Random_problems</title>
+      <link>https://tadaiji.github.io/My_Blog/blog/random_problems/</link>
+      <pubDate>Fri, 31 Mar 2023 00:16:52 +0200</pubDate>
+      
+      <guid>https://tadaiji.github.io/My_Blog/blog/random_problems/</guid>
+      <description>The course: The course was given to us with the project and here we should implement our techniques. Top view of the course Side view of the course This parkour course had patches of coins on the track and the track wasn’t only straight. For my implementation I added some additional coins to the track, mostly on top of buildings. I also added stairs to one building to give the player something to climb.</description>
     </item>
     
     <item>
