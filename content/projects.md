@@ -7,5 +7,6 @@ My first project is based on Gorilla Tag. It was developed for the "Interaction 
 Github Link: [Github Project](https://github.com/Tadaiji/VR_Project_1)  
 APK Link: [APK Project](https://drive.google.com/file/d/14StomgTC-zSpYEyJxN7Kp3EbP_9OP_fM/view?usp=share_link)  
 Walkthrough Link: [Walkthrough](https://youtu.be/RoT5gWWQT1I)
+Short gameplay video Link: [Short gameplay vidoe](https://youtu.be/XwSAuOdcOd4)
 
 
