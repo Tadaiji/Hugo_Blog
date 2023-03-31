@@ -4,10 +4,10 @@ date: 2023-03-31T00:17:31+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
-math: false
-toc: false
+math: true
+toc: true
 ---
 ## The idea
 So, for the locomotion technique I thought that the player is using their arms/hands to move, while the further you go down with your hands/controllers the larger your arms get in game. I imagined it something like Hand Walking which can be seen down below.

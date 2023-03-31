@@ -4,10 +4,10 @@ date: 2023-03-31T00:18:03+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
-math: false
-toc: false
+math: true
+toc: true
 ---
 ## The idea
 For the interaction I wanted to implement something that uses hand tracking too. I wanted to implement a solution in which you stretch your hand to an object and your hand moves further away from you the longer you stay in this position. For extra clarity while grabbing, your hand should change the size the further it is away from the player. This enables the player to grab objects even when they are further away and still seeing the object clearly. This implementation is a little like the go-go arms with additional scaling, like seeing down in the gif. [Video_Link](https://www.youtube.com/watch?app=desktop&v=WhA8n4IXeoY)

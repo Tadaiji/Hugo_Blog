@@ -71,7 +71,7 @@ copyright = "© {year}"
 
 [[menu.main]]
   identifier = "blog"
-  name = "blog"
+  name = "Blog"
   title = "Blog"
   url = "/blog"
   weight = 20

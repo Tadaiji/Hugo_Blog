@@ -4,10 +4,10 @@ date: 2023-03-31T00:15:12+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
-math: false
-toc: false
+math: true
+toc: true
 ---
 ## My final evaluation
 As I said in the beginning, I want a solution which you could be played while sitting and with your hands only. Because I had good reference material and an already finished implementation as an example for the locomotion. I wanted a polished experience when moving with the arms. These techniques should also enable embodied interaction in confined spaces so I should measure the “embodiment” and presence while playing. And in the locomotion vault this form of movement should have high “embodiment” so I hope it stays that way in the end. This will be measured using a self-designed [questionnaire]( https://forms.gle/UBuiLYi5swuAvqHX7). Also, I wanted to focus on optimizing precision because it can be difficult to control the virtual arms while enlarged or extended. At the same time, I want to reduce/prevent neausia while playing the game as much as possible. And I won’t be focusing on speed or performance because this is intended for a fun experience and leisure gameplay. 

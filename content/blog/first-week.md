@@ -4,9 +4,9 @@ date: 2022-11-01T16:38:47+01:00
 slug: "First Week"
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
-math: false
-toc: false
+math: true
+toc: true
 ---
 

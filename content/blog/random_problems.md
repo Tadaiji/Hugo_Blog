@@ -4,10 +4,10 @@ date: 2023-03-31T00:16:52+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
-math: false
-toc: false
+math: true
+toc: true
 ---
 ## The course:
 The course was given to us with the project and here we should implement our techniques.
