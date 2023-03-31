@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 01 Nov 2022 16:38:47 +0100</lastBuildDate><atom:link href="https://tadaiji.github.io/My_Blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2023 00:18:03 +0200</lastBuildDate><atom:link href="https://tadaiji.github.io/My_Blog/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interaction</title>
+      <link>https://tadaiji.github.io/My_Blog/blog/interaction/</link>
+      <pubDate>Fri, 31 Mar 2023 00:18:03 +0200</pubDate>
+      
+      <guid>https://tadaiji.github.io/My_Blog/blog/interaction/</guid>
+      <description>The idea For the interaction I wanted to implement something that uses hand tracking too. I wanted to implement a solution in which you stretch your hand to an object and your hand moves further away from you the longer you stay in this position. For extra clarity while grabbing, your hand should change the size the further it is away from the player. This enables the player to grab objects even when they are further away and still seeing the object clearly.</description>
+    </item>
+    
+    <item>
+      <title>Locomotion</title>
+      <link>https://tadaiji.github.io/My_Blog/blog/locomotion/</link>
+      <pubDate>Fri, 31 Mar 2023 00:17:31 +0200</pubDate>
+      
+      <guid>https://tadaiji.github.io/My_Blog/blog/locomotion/</guid>
+      <description>The idea So, for the locomotion technique I thought that the player is using their arms/hands to move, while the further you go down with your hands/controllers the larger your arms get in game. I imagined it something like Hand Walking which can be seen down below. Hand walking These arms are then used to physics based propel/push the player in the desired direction based. And the motion of your hands should be translated into game movement.</description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>https://tadaiji.github.io/My_Blog/blog/unity/</link>
+      <pubDate>Fri, 31 Mar 2023 00:16:16 +0200</pubDate>
+      
+      <guid>https://tadaiji.github.io/My_Blog/blog/unity/</guid>
+      <description>How to install and setup Unity: Setting up Unity is an easy feat in today\’s time, because of the Unity-Hub. The Unity-Hub is a office Unity Software and allows you to install almost any Unity-Build with the necessary options to install all relevant development and deployment methods for the selected Unity-Build. So I went to the Unity Website. From there I clicked on the “Get started” button and could sign up for the student or personal license.</description>
+    </item>
+    
+    <item>
+      <title>Conclusion</title>
+      <link>https://tadaiji.github.io/My_Blog/blog/conclusion/</link>
+      <pubDate>Fri, 31 Mar 2023 00:15:12 +0200</pubDate>
+      
+      <guid>https://tadaiji.github.io/My_Blog/blog/conclusion/</guid>
+      <description>My final evaluation As I said in the beginning, I want a solution which you could be played while sitting and with your hands only. Because I had good reference material and an already finished implementation as an example for the locomotion. I wanted a polished experience when moving with the arms. These techniques should also enable embodied interaction in confined spaces so I should measure the “embodiment” and presence while playing.</description>
+    </item>
+    
     <item>
       <title>Ignore</title>
       <link>https://tadaiji.github.io/My_Blog/blog/first-week/</link>
