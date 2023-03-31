@@ -4,10 +4,10 @@ date: 2023-03-31T00:18:38+02:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
-math: false
-toc: false
+math: true
+toc: true
 ---
 ## The core idea
 The core idea of the project was to let the player play the game in tight spaces and without much effort. To achieve that I wanted the player to expand his arm length with a slider or an system which controls the arm’s length proportionately.  

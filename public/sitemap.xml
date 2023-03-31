@@ -3,16 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tadaiji.github.io/My_Blog/</loc>
-    <lastmod>2023-03-31T00:18:03+02:00</lastmod>
+    <lastmod>2023-03-31T00:18:38+02:00</lastmod>
   </url><url>
     <loc>https://tadaiji.github.io/My_Blog/blog/</loc>
-    <lastmod>2023-03-31T00:18:03+02:00</lastmod>
+    <lastmod>2023-03-31T00:18:38+02:00</lastmod>
+  </url><url>
+    <loc>https://tadaiji.github.io/My_Blog/blog/core_idea/</loc>
+    <lastmod>2023-03-31T00:18:38+02:00</lastmod>
   </url><url>
     <loc>https://tadaiji.github.io/My_Blog/blog/interaction/</loc>
     <lastmod>2023-03-31T00:18:03+02:00</lastmod>
   </url><url>
     <loc>https://tadaiji.github.io/My_Blog/blog/locomotion/</loc>
     <lastmod>2023-03-31T00:17:31+02:00</lastmod>
+  </url><url>
+    <loc>https://tadaiji.github.io/My_Blog/blog/random_problems/</loc>
+    <lastmod>2023-03-31T00:16:52+02:00</lastmod>
   </url><url>
     <loc>https://tadaiji.github.io/My_Blog/blog/unity/</loc>
     <lastmod>2023-03-31T00:16:16+02:00</lastmod>
